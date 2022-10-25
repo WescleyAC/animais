@@ -1,0 +1,20 @@
+body {
+
+    background: #a22388;
+}
+
+.images {
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.images p {
+
+    font-size: 1rem;
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: #F2BE22;
+}
