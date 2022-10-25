@@ -3,18 +3,48 @@ body {
     background: #a22388;
 }
 
-.images {
+section {
 
-    display: grid;
+    display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
     
 }
 
-.images p {
+.container {
+
+    display: flex;
+    
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%; 
+}
+
+section .container .images {
+
+    
+    width: 20%;
+    margin: 10px;
+}
+
+.container p {
 
     font-size: 1rem;
     font-family: 'Fuzzy Bubbles', cursive;
     color: #F2BE22;
+    width: 20%;
+    
+}
+
+
+@media (max-width: 425px) {
+
+
+    .images p {
+ 
+        width: 60%;
+    }
+
 }
